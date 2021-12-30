@@ -293,35 +293,35 @@ var items = {
 
 		}
 	}, 
-	"11":{
-		"type":"object","object":{"name": "Wardrobe - White",
-			"image" : "models/thumbnails/thumbnail_TN-ikea-kvikine.png",
-			"model" : "models/js/ik-kivine_baked.js",
-			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
-		}, "RealObject" :{
-			"image" : "models/thumbnails/thumbnail_TN-ikea-kvikine.png",
-			"Standard" : {
-				"Name": "Хельмер",
-				"image" : "models/thumbnails/thumbnail_TN-ikea-kvikine.png",
-				"Description": "Тумба с ящиками на колесах",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
-			},
+	// "11":{
+	// 	"type":"object","object":{"name": "Wardrobe - White",
+	// 		"image" : "models/thumbnails/thumbnail_TN-ikea-kvikine.png",
+	// 		"model" : "models/js/ik-kivine_baked.js",
+	// 		"type" : "1",
+	// 		"category":"2",
+	// 		"categoryName":"Dresser",
+	// 	}, "RealObject" :{
+	// 		"image" : "models/thumbnails/thumbnail_TN-ikea-kvikine.png",
+	// 		"Standard" : {
+	// 			"Name": "Хельмер",
+	// 			"image" : "models/thumbnails/thumbnail_TN-ikea-kvikine.png",
+	// 			"Description": "Тумба с ящиками на колесах",
+	// 			"Price": "5900р",
+	// 			"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
+	// 		},
 
 
-			"Premium" : 
-			{
-				"Name": "Алекс",
-				"image" : "models/thumbnails/thumbnail_TN-ikea-kvikine.png",
-				"Description": "Тумба черно-коричневая",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
-			}
+	// 		"Premium" : 
+	// 		{
+	// 			"Name": "Алекс",
+	// 			"image" : "models/thumbnails/thumbnail_TN-ikea-kvikine.png",
+	// 			"Description": "Тумба черно-коричневая",
+	// 			"Price": "5900р",
+	// 			"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
+	// 		}
 
-		}
-	}, 
+	// 	}
+	// }, 
 	"12":{
 		"type":"object","object":{"name": "Full Bed",
 			"image" : "models/thumbnails/thumbnail_nordli-bed-frame__0159270_PE315708_S4.JPG",
@@ -408,64 +408,64 @@ var items = {
 
 		}
 	}, 
-	"15":{
-		"type":"object","object":{"name": "Media Console - Black",
-			"image" : "models/thumbnails/thumbnail_moore-60-media-console-1.jpg",
-			"model" : "models/js/cb-moore_baked.js",
-			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
-		}, "RealObject" :{
-			"image" : "models/thumbnails/thumbnail_moore-60-media-console-1.jpg",
-			"Standard" : {
-				"Name": "Хельмер",
-				"image" : "models/thumbnails/thumbnail_moore-60-media-console-1.jpg",
-				"Description": "Тумба с ящиками на колесах",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
-			},
+	// "15":{
+	// 	"type":"object","object":{"name": "Media Console - Black",
+	// 		"image" : "models/thumbnails/thumbnail_moore-60-media-console-1.jpg",
+	// 		"model" : "models/js/cb-moore_baked.js",
+	// 		"type" : "1",
+	// 		"category":"2",
+	// 		"categoryName":"Dresser",
+	// 	}, "RealObject" :{
+	// 		"image" : "models/thumbnails/thumbnail_moore-60-media-console-1.jpg",
+	// 		"Standard" : {
+	// 			"Name": "Хельмер",
+	// 			"image" : "models/thumbnails/thumbnail_moore-60-media-console-1.jpg",
+	// 			"Description": "Тумба с ящиками на колесах",
+	// 			"Price": "5900р",
+	// 			"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
+	// 		},
 
 
-			"Premium" : 
-			{
-				"Name": "Алекс",
-				"image" : "models/thumbnails/thumbnail_moore-60-media-console-1.jpg",
-				"Description": "Тумба черно-коричневая",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
-			}
+	// 		"Premium" : 
+	// 		{
+	// 			"Name": "Алекс",
+	// 			"image" : "models/thumbnails/thumbnail_moore-60-media-console-1.jpg",
+	// 			"Description": "Тумба черно-коричневая",
+	// 			"Price": "5900р",
+	// 			"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
+	// 		}
 
-		}
-	}, 
-	"16":{
-		"type":"object","object":{"name": "Sectional - Olive",
-			"image" : "models/thumbnails/thumbnail_img21o.jpg",
-			"model" : "models/js/we-crosby2piece-greenbaked.js",
-			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
-		}, "RealObject" :{
-			"image" : "models/thumbnails/thumbnail_img21o.jpg",
-			"Standard" : {
-				"Name": "Хельмер",
-				"image" : "models/thumbnails/thumbnail_img21o.jpg",
-				"Description": "Тумба с ящиками на колесах",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
-			},
+	// 	}
+	// }, 
+	// "16":{
+	// 	"type":"object","object":{"name": "Sectional - Olive",
+	// 		"image" : "models/thumbnails/thumbnail_img21o.jpg",
+	// 		"model" : "models/js/we-crosby2piece-greenbaked.js",
+	// 		"type" : "1",
+	// 		"category":"2",
+	// 		"categoryName":"Dresser",
+	// 	}, "RealObject" :{
+	// 		"image" : "models/thumbnails/thumbnail_img21o.jpg",
+	// 		"Standard" : {
+	// 			"Name": "Хельмер",
+	// 			"image" : "models/thumbnails/thumbnail_img21o.jpg",
+	// 			"Description": "Тумба с ящиками на колесах",
+	// 			"Price": "5900р",
+	// 			"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
+	// 		},
 
 
-			"Premium" : 
-			{
-				"Name": "Алекс",
-				"image" : "models/thumbnails/thumbnail_img21o.jpg",
-				"Description": "Тумба черно-коричневая",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
-			}
+	// 		"Premium" : 
+	// 		{
+	// 			"Name": "Алекс",
+	// 			"image" : "models/thumbnails/thumbnail_img21o.jpg",
+	// 			"Description": "Тумба черно-коричневая",
+	// 			"Price": "5900р",
+	// 			"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
+	// 		}
 
-		}
-	}, 
+	// 	}
+	// }, 
 	"17":{
 		"type":"object","object":{"name": "Sofa - Grey",
 			"image" : "models/thumbnails/thumbnail_rochelle-sofa-3.jpg",
@@ -640,35 +640,35 @@ var items = {
 
 		}
 	}, 
-	"23":{
-		"type":"object","object":{"name": "Dining table",
-			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-01-28_at_6.49.33_PM.png",
-			"model" : "models/js/BlakeAvenuejoshuatreecheftable.js",
-			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
-		}, "RealObject" :{
-			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-01-28_at_6.49.33_PM.png",
-			"Standard" : {
-				"Name": "Хельмер",
-				"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-01-28_at_6.49.33_PM.png",
-				"Description": "Тумба с ящиками на колесах",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
-			},
+	// "23":{
+	// 	"type":"object","object":{"name": "Dining table",
+	// 		"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-01-28_at_6.49.33_PM.png",
+	// 		"model" : "models/js/BlakeAvenuejoshuatreecheftable.js",
+	// 		"type" : "1",
+	// 		"category":"2",
+	// 		"categoryName":"Dresser",
+	// 	}, "RealObject" :{
+	// 		"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-01-28_at_6.49.33_PM.png",
+	// 		"Standard" : {
+	// 			"Name": "Хельмер",
+	// 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-01-28_at_6.49.33_PM.png",
+	// 			"Description": "Тумба с ящиками на колесах",
+	// 			"Price": "5900р",
+	// 			"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
+	// 		},
 
 
-			"Premium" : 
-			{
-				"Name": "Алекс",
-				"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-01-28_at_6.49.33_PM.png",
-				"Description": "Тумба черно-коричневая",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
-			}
+	// 		"Premium" : 
+	// 		{
+	// 			"Name": "Алекс",
+	// 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-01-28_at_6.49.33_PM.png",
+	// 			"Description": "Тумба черно-коричневая",
+	// 			"Price": "5900р",
+	// 			"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
+	// 		}
 
-		}
-	},
+	// 	}
+	// },
 	"24":{
 		"type":"object","object":{"name": "Blue Rug",
 			"image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
