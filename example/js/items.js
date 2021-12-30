@@ -1,5 +1,21 @@
 // add items to the "Add Items" tab
 
+// Item names and categories
+// 1) Sofa: type = 1, category = 1
+// 2) Chair: type = 1, category = 2
+// 3) Table: type = 1, category = 3
+// 4) Bed: type = 1, category = 4
+// 5) Closet: type = 1, category = 5
+// 6) Bedside Table: type = 1, category = 6
+// 7) Lamp: type = 1, category = 7
+// 8) Rug: type = 1, category = 8
+// 9) Door: type = 7, category = 9
+// 10) Window: type = 3, category = 10
+// 11) Chandelier: type = 11, category = 11
+// 12) Curtain: type = 2, category = 12
+// 13) Poster: type = 2, category = 13
+
+
 var items = {
 	"1":{ 
 		"type":"object","object":{"name": "Closed Door",
@@ -327,8 +343,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_nordli-bed-frame__0159270_PE315708_S4.JPG",
 			"model" : "models/js/ik_nordli_full.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",}, "RealObject" :{
+			"category":"6",
+			"categoryName":"Bed",}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_nordli-bed-frame__0159270_PE315708_S4.JPG",
 			"Standard" : {
 				"Name": "Хельмер",
