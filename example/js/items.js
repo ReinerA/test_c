@@ -7,13 +7,13 @@
 // 4) Bed: type = 1, category = 4
 // 5) Closet: type = 1, category = 5
 // 6) Bedside Table: type = 1, category = 6
-// 7) Lamp: type = 1, category = 7
-// 8) Rug: type = 1, category = 8
+// 7) Lamp: type = 1 or 11, category = 7
+// 8) Rug: type = 8, category = 8
 // 9) Door: type = 7, category = 9
 // 10) Window: type = 3, category = 10
-// 11) Chandelier: type = 11, category = 11
-// 12) Curtain: type = 2, category = 12
-// 13) Poster: type = 2, category = 13
+// 11) Curtain: type = 2, category = 11
+// 12) Poster: type = 2, category = 12
+// 13) Cabin: type = 1, category = 13
 
 
 var items = {
@@ -22,7 +22,7 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
 			"model" : "models/js/closed-door28x80_baked.js",
 			"type" : "7",
-			"category":"7",
+			"category":"9",
 			"categoryName":"Door"
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
@@ -52,7 +52,7 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.22.46_PM.png",
 			"model" : "models/js/open_door.js",
 			"type" : "7",
-			"category":"7",
+			"category":"9",
 			"categoryName":"Door",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.22.46_PM.png",
@@ -81,7 +81,7 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_window.png",
 			"model" : "models/js/whitewindow.js",
 			"type" : "3",
-			"category":"3",
+			"category":"10",
 			"categoryName":"Window",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_window.png",
@@ -110,7 +110,7 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
 			"model" : "models/js/gus-churchchair-whiteoak.js",
 			"type" : "1",
-			"category":"1",
+			"category":"2",
 			"categoryName":"Chair",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_Church-Chair-oak-white_1024x1024.jpg",
@@ -139,7 +139,7 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_tn-orange.png",
 			"model" : "models/js/ik-ekero-orange_baked.js",
 			"type" : "1",
-			"category":"1",
+			"category":"2",
 			"categoryName":"Chair",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_tn-orange.png",
@@ -168,7 +168,7 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_ekero-blue3.png",
 			"model" : "models/js/ik-ekero-blue_baked.js",
 			"type" : "1",
-			"category":"1",
+			"category":"2",
 			"categoryName":"Chair",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_ekero-blue3.png",
@@ -197,8 +197,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_matera_dresser_5.png",
 			"model" : "models/js/DWR_MATERA_DRESSER2.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"5",
+			"categoryName":"Closet",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_matera_dresser_5.png",
 			"Standard" : {
@@ -226,8 +226,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_img25o.jpg",
 			"model" : "models/js/we-narrow6white_baked.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"5",
+			"categoryName":"Closet",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_img25o.jpg",
 			"Standard" : {
@@ -256,8 +256,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_Blu-Dot-Shale-Bedside-Table.jpg",
 			"model" : "models/js/bd-shalebedside-smoke_baked.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"6",
+			"categoryName":"Bedside table",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_Blu-Dot-Shale-Bedside-Table.jpg",
 			"Standard" : {
@@ -285,8 +285,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_arch-white-oval-nightstand.jpg",
 			"model" : "models/js/cb-archnight-white_baked.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"6",
+			"categoryName":"Bedside table",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_arch-white-oval-nightstand.jpg",
 			"Standard" : {
@@ -343,7 +343,7 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_nordli-bed-frame__0159270_PE315708_S4.JPG",
 			"model" : "models/js/ik_nordli_full.js",
 			"type" : "1",
-			"category":"6",
+			"category":"4",
 			"categoryName":"Bed",}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_nordli-bed-frame__0159270_PE315708_S4.JPG",
 			"Standard" : {
@@ -371,8 +371,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_kendall-walnut-bookcase.jpg",
 			"model" : "models/js/cb-kendallbookcasewalnut_baked.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"5",
+			"categoryName":"Closet",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_kendall-walnut-bookcase.jpg",
 			"Standard" : {
@@ -400,8 +400,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_clapboard-white-60-media-console-1.jpg",
 			"model" : "models/js/cb-clapboard_baked.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"13",
+			"categoryName":"Cabin",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_clapboard-white-60-media-console-1.jpg",
 			"Standard" : {
@@ -487,8 +487,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_rochelle-sofa-3.jpg",
 			"model" : "models/js/cb-rochelle-gray_baked.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"1",
+			"categoryName":"Sofa",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_rochelle-sofa-3.jpg",
 			"Standard" : {
@@ -516,8 +516,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_teca-storage-trunk.jpg",
 			"model" : "models/js/cb-tecs_baked.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"5",
+			"categoryName":"Closet",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_teca-storage-trunk.jpg",
 			"Standard" : {
@@ -545,8 +545,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_ore-white.png",
 			"model" : "models/js/ore-3legged-white_baked.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"7",
+			"categoryName":"Lamp",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_ore-white.png",
 			"Standard" : {
@@ -574,8 +574,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_stockholm-coffee-table__0181245_PE332924_S4.JPG",
 			"model" : "models/js/ik-stockholmcoffee-brown.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"3",
+			"categoryName":"Table",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_stockholm-coffee-table__0181245_PE332924_S4.JPG",
 			"Standard" : {
@@ -603,8 +603,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-02-21_at_1.24.58_PM.png",
 			"model" : "models/js/GUSossingtonendtable.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"3",
+			"categoryName":"Table",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-02-21_at_1.24.58_PM.png",
 			"Standard" : {
@@ -632,8 +632,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_scholar-dining-table.jpg",
 			"model" : "models/js/cb-scholartable_baked.js",
 			"type" : "1",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"3",
+			"categoryName":"Table",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_scholar-dining-table.jpg",
 			"Standard" : {
@@ -690,8 +690,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
 			"model" : "models/js/cb-blue-block-60x96.js",
 			"type" : "8",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"8",
+			"categoryName":"Rug",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_cb-blue-block60x96.png",
 			"Standard" : {
@@ -719,8 +719,8 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_nyc2.jpg",
 			"model" : "models/js/nyc-poster2.js",
 			"type" : "2",
-			"category":"2",
-			"categoryName":"Dresser",
+			"category":"12",
+			"categoryName":"Poster",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_nyc2.jpg",
 			"Standard" : {
@@ -883,12 +883,12 @@ var items = {
 	},
 	
 	"31":{
-		"type":"object","object":{"name": "lamp",
+		"type":"object","object":{"name": "Chandelier",
 			"image" : "models/thumbnails/thumbnail_ore-white.png",
 			"model" : "models/js/ore-3legged-white_baked.js",
 			"type" : "11",
-			"category":"5",
-			"categoryName":"Roof",
+			"category":"7",
+			"categoryName":"Lamp",
 		}, "RealObject" :{
 			"image" : "models/thumbnails/thumbnail_teca-storage-trunk.jpg",
 			"Standard" : {
