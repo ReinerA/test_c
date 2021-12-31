@@ -391,8 +391,8 @@ var BP3D;
             Configuration.data = {
                 //dimUnit: Core.dimInch,
                 dimUnit: Core.dimCentiMeter,
-                wallHeight: 250,
-                wallThickness: 10
+                wallHeight: 270,
+                wallThickness: 1
             };
             return Configuration;
         })();
