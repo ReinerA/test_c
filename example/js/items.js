@@ -18,7 +18,7 @@
 
 var items = {
 	"1":{ 
-		"type":"object","object":{"name": "Closed Door",
+		"type":"object","object":{"name": "Дверь",
 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
 			"model" : "models/js/closed-door28x80_baked.js",
 			"type" : "7",
@@ -28,21 +28,21 @@ var items = {
 			"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
 	
 			"Standard" : {
-				"Name": "Хельмер",
+				"Name": "Alto",
 				"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
-				"Description": "Тумба с ящиками на колесах",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
+				"Description": "Серия дверей, спроектированных специально для оборудования дверных проемов на объектах коммерческой и жилой недвижимости, не имеющих специальных требований по звукоизоляции и пожарной безопасности.",
+				"Price": "4500р",
+				"Link":"https://msk.velldoris.net/catalog/mezhkomnatnye-dveri/_7_21_lr_2014_2_/"
 			},
 
 
 			"Premium" : 
 			{
-				"Name": "Алекс",
+				"Name": "Softtouch",
 				"image" : "models/thumbnails/thumbnail_Screen_Shot_2014-10-27_at_8.04.12_PM.png",
-				"Description": "Тумба черно-коричневая",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
+				"Description": "Изящная классика в удивительном многообразии форм и отделок, особая элегантность и высокий стиль вашего дома - все это объединяет в себе гармоничная и необыкновенно вариативная серия дверей ALTO",
+				"Price": "9370р",
+				"Link":"https://msk.velldoris.net/catalog/mezhkomnatnye-dveri/_600_2000_lr__126/"
 			}
 
 		}
