@@ -1641,10 +1641,10 @@ $(document).ready(function() {
 			},
 			
 			defaultRoofTexture:{
-				url: "rooms/textures/light_brick.jpg",
+				url: "rooms/textures/light-grey_roof.png",
 				stretch: false,
 				scale: 100,
-				item_Id:"30"
+				item_Id:"31"
 			},
 			
 			

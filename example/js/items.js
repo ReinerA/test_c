@@ -853,36 +853,7 @@ var items = {
 		}
 	},
 	
-	
 	"30":{
-		"type":"roofTexture","Texture":{
-			"name": "",
-			"url": "rooms/textures/light_brick.jpg",
-			"stretch":"false",
-			"scale":"100",
-			"icon":"rooms/thumbnails/thumbnail_light_brick.jpg"
-		}, "RealObject" :{
-			"image" : "rooms/thumbnails/thumbnail_light_brick.jpg",
-			"Standard" : {
-				"Name": "Хельмер",
-				"image" : "rooms/thumbnails/thumbnail_light_brick.jpg",
-				"Description": "Тумба с ящиками на колесах",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
-			},
-			"Premium" : 
-			{
-				"Name": "Алекс",
-				"image" : "rooms/thumbnails/thumbnail_light_brick.jpg",
-				"Description": "Тумба черно-коричневая",
-				"Price": "5900р",
-				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
-			}
-
-		}
-	},
-	
-	"31":{
 		"type":"object","object":{"name": "Chandelier",
 			"image" : "models/thumbnails/thumbnail_ore-white.png",
 			"model" : "models/js/ore-3legged-white_baked.js",
@@ -912,18 +883,18 @@ var items = {
 		}
 	},
 	
-	"32":{
+	"31":{
 		"type":"roofTexture","Texture":{
 			"name": "",
-			"url": "rooms/textures/light_fine_wood.jpg",
+			"url": "rooms/textures/light-grey_roof.png",
 			"stretch":"false",
 			"scale":"300",
-			"icon":"rooms/thumbnails/thumbnail_light_fine_wood.jpg"
+			"icon":"rooms/thumbnails/thumbnail_light-grey_roof.png"
 		}, "RealObject" :{
-			"image" : "rooms/thumbnails/thumbnail_light_fine_wood.jpg",
+			"image" : "rooms/thumbnails/thumbnail_light-grey_roof.png",
 			"Standard" : {
 				"Name": "Хельмер",
-				"image" : "rooms/thumbnails/thumbnail_light_fine_wood.jpg",
+				"image" : "rooms/thumbnails/thumbnail_light-grey_roof.png",
 				"Description": "Тумба с ящиками на колесах",
 				"Price": "5900р",
 				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
@@ -931,7 +902,119 @@ var items = {
 			"Premium" : 
 			{
 				"Name": "Алекс",
-				"image" : "rooms/thumbnails/thumbnail_light_fine_wood.jpg",
+				"image" : "rooms/thumbnails/thumbnail_light-grey_roof.png",
+				"Description": "Тумба черно-коричневая",
+				"Price": "5900р",
+				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
+			}
+
+		}
+	},
+
+	"32":{
+		"type":"roofTexture","Texture":{
+			"name": "",
+			"url": "rooms/textures/walllightmap.png",
+			"stretch":"false",
+			"scale":"300",
+			"icon":"rooms/thumbnails/thumbnail_walllightmap.png"
+		}, "RealObject" :{
+			"image" : "rooms/thumbnails/thumbnail_walllightmap.png",
+			"Standard" : {
+				"Name": "Хельмер",
+				"image" : "rooms/thumbnails/thumbnail_walllightmap.png",
+				"Description": "Тумба с ящиками на колесах",
+				"Price": "5900р",
+				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
+			},
+			"Premium" : 
+			{
+				"Name": "Алекс",
+				"image" : "rooms/thumbnails/thumbnail_walllightmap.png",
+				"Description": "Тумба черно-коричневая",
+				"Price": "5900р",
+				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
+			}
+
+		}
+	},
+
+	"33":{
+		"type":"wallTexture","Texture":{
+			"name": "",
+			"url": "rooms/textures/wallmap_blue.png",
+			"stretch":"true",
+			"scale":"",
+			"icon":"rooms/thumbnails/thumbnail_wallmap_blue.png"
+		}, "RealObject" :{
+			"image" : "rooms/thumbnails/thumbnail_wallmap_blue.png",
+			"Standard" : {
+				"Name": "Хельмер",
+				"image" : "rooms/thumbnails/thumbnail_wallmap_blue.png",
+				"Description": "Тумба с ящиками на колесах",
+				"Price": "5900р",
+				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
+			},
+			"Premium" : 
+			{
+				"Name": "Алекс",
+				"image" : "rooms/thumbnails/thumbnail_wallmap_blue.png",
+				"Description": "Тумба черно-коричневая",
+				"Price": "5900р",
+				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
+			}
+
+		}
+	},
+	
+	"34":{
+		"type":"wallTexture","Texture":{
+			"name": "",
+			"url": "rooms/textures/wallmap_grey.png",
+			"stretch":"true",
+			"scale":"",
+			"icon":"rooms/thumbnails/thumbnail_wallmap_grey.png"
+		}, "RealObject" :{
+			"image" : "rooms/thumbnails/thumbnail_wallmap_grey.png",
+			"Standard" : {
+				"Name": "Хельмер",
+				"image" : "rooms/thumbnails/thumbnail_wallmap_grey.png",
+				"Description": "Тумба с ящиками на колесах",
+				"Price": "5900р",
+				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
+			},
+			"Premium" : 
+			{
+				"Name": "Алекс",
+				"image" : "rooms/thumbnails/thumbnail_wallmap_grey.png",
+				"Description": "Тумба черно-коричневая",
+				"Price": "5900р",
+				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
+			}
+
+		}
+	},
+
+	"35":{
+		"type":"wallTexture","Texture":{
+			"name": "",
+			"url": "rooms/textures/wallmap_green.png",
+			"stretch":"true",
+			"scale":"",
+			"icon":"rooms/thumbnails/thumbnail_wallmap_green.png"
+		}, "RealObject" :{
+			"image" : "rooms/thumbnails/thumbnail_wallmap_green.png",
+			"Standard" : {
+				"Name": "Хельмер",
+				"image" : "rooms/thumbnails/thumbnail_wallmap_green.png",
+				"Description": "Тумба с ящиками на колесах",
+				"Price": "5900р",
+				"Link":"https://www.ikea.com/ru/ru/p/helmer-tumba-s-yashchikami-na-kolesah-belyy-50384944/"
+			},
+			"Premium" : 
+			{
+				"Name": "Алекс",
+				"image" : "rooms/thumbnails/thumbnail_wallmap_green.png",
 				"Description": "Тумба черно-коричневая",
 				"Price": "5900р",
 				"Link":"https://www.ikea.com/ru/ru/p/aleks-tumba-s-yashchikami-belyy-50384901"
@@ -939,6 +1022,7 @@ var items = {
 
 		}
 	}
+
    
 }
 
